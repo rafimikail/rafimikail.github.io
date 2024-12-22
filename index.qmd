@@ -1,16 +1,19 @@
 
-![](image.png){width=250}
+![](image.png){width=200}
+
+[LinkedIn](https://www.linkedin.com/in/rafimikail/) | [GitHub](https://github.com/rafimikail)
 
 # Rafi Mikail
 
-👋 Hi there! I'm Mikail, Data scientist @AlloFresh, where i tackle various analytics problems such as customer insights, fraud detection, as well as developing search and recommendation system.
+👋 Hi there! I'm Mikail, Data scientist @AlloFresh, where i work on range of analytics challanges including as customer insights, fraud detection, as well as developing search logics and recommendation system.
 
 I earned my Bachelor’s degree in Computer Science from the University of Malaya. During my study, I worked on experimentation and causal inference problems @Bukalapak.
 
-In my free time, I love diving deep into causal inference and econometrics. I also help to develop pyfixest, a high-dimensional fixed effects regression package in Python. My work can be found on my [Github](https://github.com/rafimikail)!
+In my free time, I love diving deep into causal inference and econometrics. Recently, I’ve also been growing [pyfixest](https://py-econometrics.github.io/pyfixest/pyfixest.html), a high-dimensional fixed effects regression package in Python, designed to replicate the functionality of the original [fixest](https://lrberge.github.io/fixest/) package in R. My work can be found on my [Github](https://github.com/rafimikail)!
 
 #### Recent Posts
-[Enhancing User Experience with Hybrid-Based Complementary Recommendations](https://medium.com/allofresh-engineering/what-if-your-grocery-app-could-read-your-mind-8bc8eddd2ae5) <div style="float: right;">Oct 2024</div>
 ---
-More posts to come!
+
+[What If Your Grocery App Could Read Your Mind?](https://medium.com/allofresh-engineering/what-if-your-grocery-app-could-read-your-mind-8bc8eddd2ae5) <div style="float: right;">Oct 2024</div>
 ---
+[See all posts](posts.qmd)
