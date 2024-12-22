@@ -1,16 +1,9 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "personal_website",
+    "title": "Rafi Mikail",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Rafi Mikail\n👋 Hi there! I’m Mikail, Data scientist @AlloFresh, where i tackle various analytics problems such as customer insights, fraud detection, as well as developing search and recommendation system.\nI earned my Bachelor’s degree in Computer Science from the University of Malaya. During my study, I worked on experimentation and causal inference problems @Bukalapak.\nIn my free time, I love diving deep into causal inference and econometrics. I also help to develop pyfixest, a high-dimensional fixed effects regression package in Python. My work can be found on my Github!\n\nRecent Posts\nEnhancing User Experience with Hybrid-Based Complementary Recommendations\n\nOct 2024\n\n\n\n\nMore posts to come!"
   }
 ]
