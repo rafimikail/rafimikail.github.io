@@ -7,13 +7,13 @@ website:
     left:
       - href: index.qmd
         text: Home
+      - href: posts.qmd
+        text: Posts
   search: false
-
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: false
-
 execute:
   freeze: auto
