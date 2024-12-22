@@ -1,15 +1,16 @@
 
 ![](image.png){width=200}
 
-[LinkedIn](https://www.linkedin.com/in/rafimikail/) | [GitHub](https://github.com/rafimikail)
-
 # Rafi Mikail
 
-👋 Hi there! I'm Mikail, Data scientist @AlloFresh, where i work on range of analytics challanges including as customer insights, fraud detection, as well as developing search logics and recommendation system.
+[Email](mailto:rafimikail1711@gmail.com)
+ | [GitHub](https://github.com/rafimikail) | [LinkedIn](https://www.linkedin.com/in/rafimikail/)
+
+👋 Hi there! I'm Mikail, Data scientist @AlloFresh, where i work on range of analytics challanges including customer insights, fraud detection, as well as developing search logics and recommendation system.
 
 I earned my Bachelor’s degree in Computer Science from the University of Malaya. During my study, I worked on experimentation and causal inference problems @Bukalapak.
 
-In my free time, I love diving deep into causal inference and econometrics. Recently, I’ve also been growing [pyfixest](https://py-econometrics.github.io/pyfixest/pyfixest.html), a high-dimensional fixed effects regression package in Python, designed to replicate the functionality of the original [fixest](https://lrberge.github.io/fixest/) package in R. My work can be found on my [Github](https://github.com/rafimikail)!
+In my free time, I love diving deep into causal inference and econometrics. Recently, I’ve also been helping to grow [pyfixest](https://py-econometrics.github.io/pyfixest/pyfixest.html), a high-dimensional fixed effects regression package in Python, designed to replicate the functionality of the original [fixest](https://lrberge.github.io/fixest/) package in R.
 
 #### Recent Posts
 ---
