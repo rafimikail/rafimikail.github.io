@@ -1,7 +1,16 @@
----
-title: "personal_website"
----
 
-This is a Quarto website.
+![](image.png){width=250}
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+# Rafi Mikail
+
+👋 Hi there! I'm Mikail, Data scientist @AlloFresh, where i tackle various analytics problems such as customer insights, fraud detection, as well as developing search and recommendation system.
+
+I earned my Bachelor’s degree in Computer Science from the University of Malaya. During my study, I worked on experimentation and causal inference problems @Bukalapak.
+
+In my free time, I love diving deep into causal inference and econometrics. I also help to develop pyfixest, a high-dimensional fixed effects regression package in Python. My work can be found on my [Github](https://github.com/rafimikail)!
+
+#### Recent Posts
+[Enhancing User Experience with Hybrid-Based Complementary Recommendations](https://medium.com/allofresh-engineering/what-if-your-grocery-app-could-read-your-mind-8bc8eddd2ae5) <div style="float: right;">Oct 2024</div>
+---
+More posts to come!
+---
