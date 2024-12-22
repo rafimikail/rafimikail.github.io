@@ -2,9 +2,13 @@
 # Posts
 ## 2025
 
+Notes: Regression Analysis<div style="float: right;">On Going</div>
+
+---
+
+Notes: Bayesian Ranking<div style="float: right;">On Going</div>
 
 ## 2024
-
-More posts are coming on the way!
+An Alternative to Propensity Score Matching: CEM <div style="float: right;">On Going</div>
 ---
 [What If Your Grocery App Could Read Your Mind?](https://medium.com/allofresh-engineering/what-if-your-grocery-app-could-read-your-mind-8bc8eddd2ae5) <div style="float: right;">Oct 2024</div>
