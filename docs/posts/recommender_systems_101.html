@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>posts – Rafi Mikail</title>
+<title>recommender_systems_101 – Rafi Mikail</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,18 +23,18 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d045e70ebd9269c25e164ecdb4898f56.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d045e70ebd9269c25e164ecdb4898f56.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "language": {
     "search-no-results-text": "No results",
@@ -52,17 +52,17 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Rafi Mikail</span>
     </a>
   </div>
@@ -72,15 +72,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
 </ul>
@@ -94,38 +94,69 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#recommender-systems-101" id="toc-recommender-systems-101" class="nav-link active" data-scroll-target="#recommender-systems-101">Recommender Systems 101</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#collaborative-filtering" id="toc-collaborative-filtering" class="nav-link" data-scroll-target="#collaborative-filtering">Collaborative Filtering</a>
+  <ul class="collapse">
+  <li><a href="#types-of-collaborative-filtering" id="toc-types-of-collaborative-filtering" class="nav-link" data-scroll-target="#types-of-collaborative-filtering">Types of Collaborative Filtering</a></li>
+  </ul></li>
+  <li><a href="#content-based-filtering" id="toc-content-based-filtering" class="nav-link" data-scroll-target="#content-based-filtering">Content-Based Filtering</a></li>
+  <li><a href="#hybrid-method" id="toc-hybrid-method" class="nav-link" data-scroll-target="#hybrid-method">Hybrid Method</a></li>
+  <li><a href="#bayesian-ranking" id="toc-bayesian-ranking" class="nav-link" data-scroll-target="#bayesian-ranking">Bayesian Ranking</a>
+  <ul class="collapse">
+  <li><a href="#common-problems-in-ranking" id="toc-common-problems-in-ranking" class="nav-link" data-scroll-target="#common-problems-in-ranking">Common Problems in Ranking</a></li>
+  <li><a href="#how-bayesian-methods-deals-with-them" id="toc-how-bayesian-methods-deals-with-them" class="nav-link" data-scroll-target="#how-bayesian-methods-deals-with-them">How Bayesian Methods Deals with Them</a></li>
+  </ul></li>
+  <li><a href="#markov-chain" id="toc-markov-chain" class="nav-link" data-scroll-target="#markov-chain">Markov Chain</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
 
-<section id="posts" class="level1">
-<h1>Posts</h1>
-<section id="section" class="level2">
-<h2 class="anchored" data-anchor-id="section">2025</h2>
-Learning Notes: Regression Analysis
-<div style="float: right;">
-On Going
-</div>
-<hr>
-<a href="./posts/recommender_systems_101.html">Recommender Systems 101</a>
-<div style="float: right;">
-On Going
-</div>
+<section id="recommender-systems-101" class="level1">
+<h1>Recommender Systems 101</h1>
+<p>This article serves a dual purpose: it is both a collection of my personal learning notes and a comprehensive introduction to recommender systems for those interested in exploring the field. Whether you’re just starting out or aiming to deepen your understanding, this guide designed to provide clear, intuitive explanations of key concepts for high-level understanding, along with technical details of popular methods used in the industry.</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 </section>
-<section id="section-1" class="level2">
-<h2 class="anchored" data-anchor-id="section-1">2024</h2>
-An Alternative to Propensity Score Matching: CEM
-<div style="float: right;">
-On Going
-</div>
-<hr>
-<a href="https://medium.com/allofresh-engineering/what-if-your-grocery-app-could-read-your-mind-8bc8eddd2ae5">What If Your Grocery App Could Read Your Mind?</a>
-<div style="float: right;">
-Oct 2024
-</div>
+<section id="collaborative-filtering" class="level2">
+<h2 class="anchored" data-anchor-id="collaborative-filtering">Collaborative Filtering</h2>
+<section id="types-of-collaborative-filtering" class="level3">
+<h3 class="anchored" data-anchor-id="types-of-collaborative-filtering">Types of Collaborative Filtering</h3>
+</section>
+</section>
+<section id="content-based-filtering" class="level2">
+<h2 class="anchored" data-anchor-id="content-based-filtering">Content-Based Filtering</h2>
+</section>
+<section id="hybrid-method" class="level2">
+<h2 class="anchored" data-anchor-id="hybrid-method">Hybrid Method</h2>
+</section>
+<section id="bayesian-ranking" class="level2">
+<h2 class="anchored" data-anchor-id="bayesian-ranking">Bayesian Ranking</h2>
+<section id="common-problems-in-ranking" class="level3">
+<h3 class="anchored" data-anchor-id="common-problems-in-ranking">Common Problems in Ranking</h3>
+</section>
+<section id="how-bayesian-methods-deals-with-them" class="level3">
+<h3 class="anchored" data-anchor-id="how-bayesian-methods-deals-with-them">How Bayesian Methods Deals with Them</h3>
+</section>
+</section>
+<section id="markov-chain" class="level2">
+<h2 class="anchored" data-anchor-id="markov-chain">Markov Chain</h2>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 
 
 </section>
