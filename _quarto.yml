@@ -16,6 +16,6 @@ format:
   html:
     theme: litera
     css: styles.css
-    toc: false
+    # toc: false
 execute:
   freeze: auto

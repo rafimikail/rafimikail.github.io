@@ -1,0 +1,29 @@
+---
+format:
+  html:
+    toc: true
+---
+
+# Recommender Systems 101
+
+This article serves a dual purpose: it is both a collection of my personal learning notes and a comprehensive introduction to recommender systems for those interested in exploring the field. Whether you're just starting out or aiming to deepen your understanding, this guide designed to provide clear, intuitive explanations of key concepts for high-level understanding, along with technical details of popular methods used in the industry.
+
+## Introduction
+
+## Collaborative Filtering
+
+### Types of Collaborative Filtering
+
+## Content-Based Filtering
+
+## Hybrid Method
+
+## Bayesian Ranking
+
+### Common Problems in Ranking
+
+### How Bayesian Methods Deals with Them
+
+## Markov Chain
+
+## Conclusion

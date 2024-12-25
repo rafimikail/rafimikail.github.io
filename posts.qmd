@@ -1,12 +1,17 @@
+---
+format:
+  html:
+    toc: false
+---
 
 # Posts
 ## 2025
 
-Notes: Regression Analysis<div style="float: right;">On Going</div>
+Learning Notes: Regression Analysis<div style="float: right;">On Going</div>
 
 ---
 
-Notes: Bayesian Ranking<div style="float: right;">On Going</div>
+[Recommender Systems 101](posts/recommender_systems_101.qmd.qmd)<div style="float: right;">On Going</div>
 
 ## 2024
 An Alternative to Propensity Score Matching: CEM <div style="float: right;">On Going</div>

@@ -4,14 +4,14 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Notes: Regression Analysis\n\nOn Going\n\n\nNotes: Bayesian Ranking\n\nOn Going\n\n\n\n\nAn Alternative to Propensity Score Matching: CEM\n\nOn Going\n\n\nWhat If Your Grocery App Could Read Your Mind?\n\nOct 2024"
+    "text": "Learning Notes: Regression Analysis\n\nOn Going\n\n\nRecommender Systems 101\n\nOn Going\n\n\n\n\nAn Alternative to Propensity Score Matching: CEM\n\nOn Going\n\n\nWhat If Your Grocery App Could Read Your Mind?\n\nOct 2024"
   },
   {
     "objectID": "posts.html#section",
     "href": "posts.html#section",
     "title": "Posts",
     "section": "",
-    "text": "Notes: Regression Analysis\n\nOn Going\n\n\nNotes: Bayesian Ranking\n\nOn Going"
+    "text": "Learning Notes: Regression Analysis\n\nOn Going\n\n\nRecommender Systems 101\n\nOn Going"
   },
   {
     "objectID": "posts.html#section-1",
@@ -33,6 +33,13 @@
     "title": "Projects",
     "section": "",
     "text": "Many more to come!"
+  },
+  {
+    "objectID": "posts/recommender_systems_101.html",
+    "href": "posts/recommender_systems_101.html",
+    "title": "Recommender Systems 101",
+    "section": "",
+    "text": "This article serves a dual purpose: it is both a collection of my personal learning notes and a comprehensive introduction to recommender systems for those interested in exploring the field. Whether you’re just starting out or aiming to deepen your understanding, this guide designed to provide clear, intuitive explanations of key concepts for high-level understanding, along with technical details of popular methods used in the industry."
   },
   {
     "objectID": "index.html",

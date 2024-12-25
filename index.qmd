@@ -1,3 +1,9 @@
+---
+format:
+  html:
+    toc: false
+---
+
 
 ![](image.png){width=200}
 

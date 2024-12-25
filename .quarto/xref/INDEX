@@ -10,5 +10,11 @@
   },
   "projects.qmd": {
     "projects.html": "b9c7be18"
+  },
+  "posts/recommender_system_101.qmd": {
+    "recommender_system_101.html": "e6190713"
+  },
+  "posts/recommender_systems_101.qmd": {
+    "recommender_systems_101.html": "8bb7ce02"
   }
 }
