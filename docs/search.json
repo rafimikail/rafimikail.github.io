@@ -4,21 +4,21 @@
     "href": "posts.html",
     "title": "Posts",
     "section": "",
-    "text": "Learning Notes: Regression Analysis\n\nOn Going\n\n\nRecommender Systems 101\n\nOn Going\n\n\n\n\nAn Alternative to Propensity Score Matching: CEM\n\nOn Going\n\n\nWhat If Your Grocery App Could Read Your Mind?\n\nOct 2024"
+    "text": "Learning Notes: Regression Analysis\n\nWIP\n\n\nRecommender Systems 101\n\nWIP\n\n\nAn Alternative to Propensity Score Matching: CEM\n\nWIP\n\n\n\n\nWhat If Your Grocery App Could Read Your Mind?\n\nOct 2024"
   },
   {
     "objectID": "posts.html#section",
     "href": "posts.html#section",
     "title": "Posts",
     "section": "",
-    "text": "Learning Notes: Regression Analysis\n\nOn Going\n\n\nRecommender Systems 101\n\nOn Going"
+    "text": "Learning Notes: Regression Analysis\n\nWIP\n\n\nRecommender Systems 101\n\nWIP\n\n\nAn Alternative to Propensity Score Matching: CEM\n\nWIP"
   },
   {
     "objectID": "posts.html#section-1",
     "href": "posts.html#section-1",
     "title": "Posts",
     "section": "",
-    "text": "An Alternative to Propensity Score Matching: CEM\n\nOn Going\n\n\nWhat If Your Grocery App Could Read Your Mind?\n\nOct 2024"
+    "text": "What If Your Grocery App Could Read Your Mind?\n\nOct 2024"
   },
   {
     "objectID": "projects.html",
@@ -39,7 +39,14 @@
     "href": "posts/recommender_systems_101.html",
     "title": "Recommender Systems 101",
     "section": "",
-    "text": "This article serves a dual purpose: it is both a collection of my personal learning notes and a comprehensive introduction to recommender systems for those interested in exploring the field. Whether you’re just starting out or aiming to deepen your understanding, this guide designed to provide clear, intuitive explanations of key concepts for high-level understanding, along with technical details of popular methods used in the industry."
+    "text": "This article serves a dual purpose: it is both a collection of my personal learning notes and a comprehensive introduction to recommender systems for those interested in exploring the field. Whether you’re just starting out or aiming to deepen your understanding, this guide designed to provide clear, intuitive explanations of key concepts for high-level understanding, along with technical details of popular methods used in the industry.\n\n\nHave you ever been scrolling through social media, browsing an e-commerce site, or using another online platform, and found yourself amazed when the app suddenly suggests ads or products that pick your interest so much so that you end up clicking on them? Or perhaps you’ve noticed how a system can predict what you’re about to type before you even finish? These are all powered by recommender systems, which have become a cornerstone of modern digital experiences.\nRecommendation systems, when built effectively, do much more than just predict your next move, they can enhance the overall user experience, drive engagement, and increase conversions from a business perspective. For example, think about how Netflix suggests movies based on your viewing history or how Amazon recommends products tailored to your shopping habits. These systems personalize the content or products you see, making your interactions with these platforms more relevant and efficient.\nYou might also wonder, “If we want to get the best recommendations, why not just rank by popularity? Sort by the most transacted products, for example, if we’re dealing with an e-commerce platform.” Well, you could, but it won’t always deliver the best results. For one, the definition of “popular” may not align with a specific user’s preferences, leading to a less personalized experience. Simply focusing on the most popular items can also limit diversity, offering the same suggestions repeatedly, which may not be engaging or helpful for every user. These are just a few of the challenges that arise in recommender systems, where personalization and diversity play crucial roles in creating seamless experience.\nThere are various approaches and methods for building recommender systems, each addressing different user needs and preferences. This article will explore the most commonly used methods, how they work, and the kinds of problems they aim to solve."
+  },
+  {
+    "objectID": "posts/recommender_systems_101.html#introduction",
+    "href": "posts/recommender_systems_101.html#introduction",
+    "title": "Recommender Systems 101",
+    "section": "",
+    "text": "Have you ever been scrolling through social media, browsing an e-commerce site, or using another online platform, and found yourself amazed when the app suddenly suggests ads or products that pick your interest so much so that you end up clicking on them? Or perhaps you’ve noticed how a system can predict what you’re about to type before you even finish? These are all powered by recommender systems, which have become a cornerstone of modern digital experiences.\nRecommendation systems, when built effectively, do much more than just predict your next move, they can enhance the overall user experience, drive engagement, and increase conversions from a business perspective. For example, think about how Netflix suggests movies based on your viewing history or how Amazon recommends products tailored to your shopping habits. These systems personalize the content or products you see, making your interactions with these platforms more relevant and efficient.\nYou might also wonder, “If we want to get the best recommendations, why not just rank by popularity? Sort by the most transacted products, for example, if we’re dealing with an e-commerce platform.” Well, you could, but it won’t always deliver the best results. For one, the definition of “popular” may not align with a specific user’s preferences, leading to a less personalized experience. Simply focusing on the most popular items can also limit diversity, offering the same suggestions repeatedly, which may not be engaging or helpful for every user. These are just a few of the challenges that arise in recommender systems, where personalization and diversity play crucial roles in creating seamless experience.\nThere are various approaches and methods for building recommender systems, each addressing different user needs and preferences. This article will explore the most commonly used methods, how they work, and the kinds of problems they aim to solve."
   },
   {
     "objectID": "index.html",
