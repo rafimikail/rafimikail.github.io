@@ -7,13 +7,16 @@ format:
 # Posts
 ## 2025
 
-Learning Notes: Regression Analysis<div style="float: right;">On Going</div>
+Learning Notes: Regression Analysis<div style="float: right;">WIP</div>
 
 ---
 
-[Recommender Systems 101](posts/recommender_systems_101.qmd)<div style="float: right;">On Going</div>
+[Recommender Systems 101](posts/recommender_systems_101.qmd)<div style="float: right;">WIP</div>
+
+--- 
+
+An Alternative to Propensity Score Matching: CEM <div style="float: right;">WIP</div>
 
 ## 2024
-An Alternative to Propensity Score Matching: CEM <div style="float: right;">On Going</div>
----
+
 [What If Your Grocery App Could Read Your Mind?](https://medium.com/allofresh-engineering/what-if-your-grocery-app-could-read-your-mind-8bc8eddd2ae5) <div style="float: right;">Oct 2024</div>
